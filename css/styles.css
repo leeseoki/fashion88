@@ -52,7 +52,7 @@ input[type="email"] {
   border-radius: 0;
   box-sizing: border-box;
   font-family: "Gotham", Helvetica, Arial, sans-serif;
-  height: 46px;
+  height: 47px;
   width: 100%;
   padding: 0 10px;
   vertical-align: baseline;
@@ -515,8 +515,7 @@ body {
  * Desktop *
  ***************/
 @media only screen and (min-width: 980px) {
-  .page-main,
-  .page-footer {
+  .page-main {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -525,7 +524,13 @@ body {
   }
 
   .page-footer {
-    max-width: 1250px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    max-width: 1280px;
   }
 
   .footer-links {
