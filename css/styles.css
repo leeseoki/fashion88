@@ -49,6 +49,7 @@ input[type="email"] {
   background: #fff;
   background-clip: padding-box;
   border: 1px solid #000;
+  border-radius: 0;
   box-sizing: border-box;
   font-family: "Gotham", Helvetica, Arial, sans-serif;
   height: 46px;
